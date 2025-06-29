@@ -1,0 +1,18 @@
+[30-Jul-2023 10:08:06 UTC] PHP Warning:  require(/home/lionserv/public_html/todo/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:06 UTC] PHP Warning:  require(/home/lionserv/public_html/todo/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lionserv/public_html/todo/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/lionserv/public_html/todo/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:09 UTC] PHP Warning:  require(/home/lionserv/public_html/todo/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:09 UTC] PHP Warning:  require(/home/lionserv/public_html/todo/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lionserv/public_html/todo/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/lionserv/public_html/todo/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:59 UTC] PHP Warning:  require(/home/lionserv/public_html/todo/../todo/vendor/autoload.php): Failed to open stream: No such file or directory in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:59 UTC] PHP Warning:  require(/home/lionserv/public_html/todo/../todo/vendor/autoload.php): Failed to open stream: No such file or directory in /home/lionserv/public_html/todo/index.php on line 34
+[30-Jul-2023 10:08:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lionserv/public_html/todo/../todo/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/lionserv/public_html/todo/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/lionserv/public_html/todo/index.php on line 34

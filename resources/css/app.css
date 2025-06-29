@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@source "../views";
+
+@font-face {
+    font-family: "estedad";
+    src: url("../../public/assets/fonts/Estedad-Regular.ttf");
+}
+
+@font-face {
+    font-family: "estedad-bold";
+    src: url("../../public/assets/fonts/Estedad-Bold.ttf");
+}
+
+@theme {
+    --color-primary-gray: #f3f4f6;
+    --color-secondary-gray: #d1d5db;
+    --color-tertiary-gray: #4b5563;
+
+    --font-estedad: "estedad";
+    --font-estedad-bold: "estedad-bold";
+}

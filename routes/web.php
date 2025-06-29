@@ -27,7 +27,7 @@ Route::group(['middleware' => 'auth:web'], function () {
     Route::resource('projects', ProjectController::class)->except('show');
     Route::get('/projects/{project:id}/tasks', [ProjectController::class, 'tasks'])->name('projects.tasks');
 
-    Route::resource('tasks', TaskController::class)->except('create', 'index', 'show');
+    Route::resource('tasks', TaskController::class);
 
     Route::group(['middleware' => 'isAdmin'], function () {
 
